@@ -64,4 +64,5 @@ module(s).
 ------------------------------------------------------------------------
 
 *Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark
-(St. Thomas University), Robin Lock (St. Lawrence University)*
+(St. Thomas University), Michael Schuckers (University of North
+Carolina - Charlotte), Robin Lock (St. Lawrence University)*
