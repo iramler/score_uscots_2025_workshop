@@ -1,9 +1,11 @@
 # Creating interactive modules for teaching with sports data
 
 
-> This page provides information and resources for the USCOTS 2025
-> workshop on creating statistics and data science teaching modules with
-> sports data, hosted by the [SCORE Network](https://scorenetwork.org).
+> This page provides information and resources for the <a
+> href="https://www.causeweb.org/cause/uscots/uscots25/program/workshops/w13"
+> target="_blank">USCOTS 2025 workshop</a> on creating statistics and
+> data science teaching modules with sports data, hosted by the
+> <a href="https://scorenetwork.org" target="_blank">SCORE Network</a>.
 
 ## About the Workshop
 
@@ -23,7 +25,8 @@ in the classroom is mandatory!
 | 0:00–0:10 | **Welcome + Overview of SCORE Network**<br>Brief intro to goals, module examples, and repository benefits |
 | 0:10–0:20 | **Module Showcase**<br>Facilitators present 2–3 example modules and highlight their structure |
 | 0:20–0:35 | **Brainstorming Sports Questions**<br>Think-pair-share: Generate ideas for classroom activities using sports data |
-| 0:35–1:00 | **Finding and Exploring Datasets**<br>Intro to [data.scorenetwork.org](https://data.scorenetwork.org) and other sources |
+| 0:35–1:00 | **Finding and Exploring Datasets**<br>Intro to <a href="https://data.scorenetwork.org"
+target="_blank">data.scorenetwork.org</a> and other sources |
 | 1:00–1:15 | **Break**<br>Take a short break and chat with facilitators or peers |
 | 1:15–2:15 | **Module Planning + Drafting**<br>Build your module outline with guidance from facilitators |
 | 2:15–2:45 | **Peer Feedback**<br>Small group discussion and peer review of draft ideas |
