@@ -1,4 +1,4 @@
-# Creating Teaching Modules with the SCORE Network
+# Creating interactive modules for teaching with sports data
 
 
 > This page provides information and resources for the USCOTS 2025
