@@ -18,7 +18,7 @@ No strong sports knowledge required...but an interest in using real data in the 
 | 1:00–1:10   | **Welcome + Overview of SCORE Network**<br>Brief intro to goals, module examples, and repository benefits |
 | 1:10–1:20   | **Module Showcase**<br>Facilitators present 2–3 example modules and highlight their structure |
 | 1:20–1:35   | **Brainstorming Sports Questions**<br>Think-pair-share: Generate ideas for classroom activities using sports data |
-| 1:35–2:00   | **Finding and Exploring Datasets**<br>Intro to [data.scorenetwork.org](https://data.scorenetwork.org){target="_blank"} and other sources |
+| 1:35–2:00   | **Finding and Exploring Datasets**<br>Intro to [data.scorenetwork.org](https://data.scorenetwork.org) and other sources |
 | 2:00–2:30   | **Module Planning + Drafting**<br>Build your module outline with guidance from facilitators |
 | 2:30–2:45   | **Break**<br>Take a short break and chat with facilitators or peers |
 | 2:45–3:15   | **Module Planning + Drafting**<br>Build your module outline with guidance from facilitators |
