@@ -20,21 +20,14 @@ in the classroom is mandatory!
 
 | Time | Activity |
 |----|----|
-| 0:00–0:15 | **Welcome + Overview of SCORE Network** |
-| Brief intro to goals, module examples, and repository benefits |  |
-| 0:15–0:35 | **Module Showcase** |
-| Facilitators present 2–3 example modules and highlight their structure |  |
-| 0:35–0:55 | **Brainstorming Sports Questions** |
-| Think-pair-share: Generate ideas for classroom activities using sports data |  |
-| 0:55–1:20 | **Finding and Exploring Datasets** |
-| Intro to [data.scorenetwork.org](https://data.scorenetwork.org) and other sources |  |
-| 1:20–1:30 | **Break** |
-| 1:30–2:15 | **Module Planning + Drafting** |
-| Build your module outline with guidance from facilitators |  |
-| 2:15–2:45 | **Peer Feedback** |
-| Small group discussion and peer review of draft ideas |  |
-| 2:45–3:00 | **Wrap-Up + Next Steps** |
-| Overview of submission process, templates, and follow-up support |  |
+| 0:00–0:10 | **Welcome + Overview of SCORE Network**<br>Brief intro to goals, module examples, and repository benefits |
+| 0:10–0:20 | **Module Showcase**<br>Facilitators present 2–3 example modules and highlight their structure |
+| 0:20–0:35 | **Brainstorming Sports Questions**<br>Think-pair-share: Generate ideas for classroom activities using sports data |
+| 0:35–1:00 | **Finding and Exploring Datasets**<br>Intro to [data.scorenetwork.org](https://data.scorenetwork.org) and other sources |
+| 1:00–1:15 | **Break**<br>Take a short break and chat with facilitators or peers |
+| 1:15–2:15 | **Module Planning + Drafting**<br>Build your module outline with guidance from facilitators |
+| 2:15–2:45 | **Peer Feedback**<br>Small group discussion and peer review of draft ideas |
+| 2:45–3:00 | **Wrap-Up + Next Steps**<br>Overview of submission process, templates, and follow-up support |
 
 ## What to Bring
 
@@ -44,16 +37,26 @@ in the classroom is mandatory!
 
 ## Additional Resources
 
-- SCORE Network website: [scorenetwork.org](https://scorenetwork.org)
+- SCORE Network website:
+  <a href="https://scorenetwork.org" target="_blank">scorenetwork.org</a>
   - For general information about the project (and links to all
     materials).
-- Datasets Repository:
-  [data.scorenetwork.org](https://data.scorenetwork.org)
+- Datasets Repository: <a href="https://data.scorenetwork.org"
+  target="_blank">data.scorenetwork.org</a>
   - Lots of example datasets that can be used to start the process of
     building a module.
-- GitHub module repo: [SCORE Module
-  Repository](https://modules.scorenetwork.org/)
-  - The preprint servers also have a lot of additional information.
+- GitHub module repo:
+  <a href="https://modules.scorenetwork.org/" target="_blank">SCORE Module
+  Repository</a>
+  - The <a href="https://modules.scorenetwork.org/preprints.html"
+    target="_blank">preprint servers</a> also have a lot of additional
+    modules to peruse.
+
+## Example Module Ideas & Datasets
+
+To help you get started, here are a few examples of module ideas (and
+related datasets). That you can use to start building your own
+module(s).
 
 ------------------------------------------------------------------------
 
