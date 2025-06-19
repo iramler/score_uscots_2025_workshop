@@ -1,0 +1,185 @@
+---
+title: "Handbook for Authors and Creators of SCORE Network Modules"
+author: "Peter Freeman, Ron Yurko, Michael Schuckers"
+date-modified: "May 29, 2023"
+format: 
+  html:
+    toc: true
+    toc-depth: 3            
+    toc-location: left      
+    number-sections: true   
+    embed-resources: true   
+    theme: cosmo
+---
+
+## Introduction
+
+This document is a guide for the process of creating and submitting modules for the Sports Content for Outreach, Research and Education (SCORE) Network.
+
+The main goal of the SCORE Network is the creation of a curated repository of educational materials for teaching statistics and data science. Each published module in the repository will have been vetted by members of the SCORE Network to ensure they are pedagogically sound and seek to answer sports-appropriate questions.
+
+## Required Components of a Module
+
+A complete module for submission consists of the following items:
+
+-   Learning Goals\
+-   Introduction/Motivation (optional video)\
+-   Methods\
+-   Exercises\
+-   Wrap-up/Conclusions\
+-   A dataset or dataset(s) related to the module\
+-   A data glossary for each dataset describing each variable/feature\
+-   A README file describing each file
+
+While all modules include the components listed above, there are many ways to build a module. A module might be centered around a particular question in a sport, or it could be created based on an interesting dataset.
+
+As you develop your module, you should be thinking about the following choices:
+
+**Sport(s)**
+
+The choice here is the sport that will be the source of the data that students will analyze. Examples of sport would include marathon, baseball, and diving. Or a module could be a comparison of multiple sports. For instance comparison of the variability in win percentages for women’s professional hockey teams versus women’s professional basketball teams.
+
+**Topic**
+
+The topic of a module is the focus of the statistical or data science content of a module. For example, the topic might be residual diagnostics or interpreting measures of variability.
+
+**Level**
+
+The targeted degree of sophistication of the students who will benefit from the module we define as the level of the module. The level of a module might be introductory statistics students, or students in a second course on regression, students taking a data management course or first-year graduate students.
+
+**Language**
+
+The language that is used as part of a module is critical to the module’s success. Language in the module should be accessible by students with limited or no background in a particular sport. Further, the module’s language should be inclusive of all students who might work on the module.
+
+**Additional Design Considerations**
+
+In addition, as you design your module you should be thinking about the following:
+
+-   What statistical or data science conceptual understanding should students get out of the module?\
+-   What data are publicly available for this module?\
+-   What is the relevant sports-specific question ?\
+-   What previous knowledge is needed to work through this module?\
+-   How are students engaged in active learning as part of the module?\
+-   How are students assessed on what they are learning in this module?\
+-   How can I make my module flexible and portable to other classrooms?
+
+As mentioned above, a completed module contains the following: a module file with the materials that students would complete including sections on Learning Goals, Introduction/Motivation (optional video), Data, Methods, Exercises, and Conclusions; a dataset or datasets related to the module, and a data glossary for each dataset. (As part of a module submission, you’ll also create a README file describing the other files.)
+
+### Learning Goals
+
+The learning goals for a module should be a short list of the aims of the modules and what you hope that students will take away from those. For example, if we are building a module on applying and interpreting linear correlations, we might have the following learning goals: 1) Students will be able to generate a scatterplot for two quantitative variables, 2) Students will be able to determine if a linear correlation is an appropriate measure of the strength of the association, 3) Students will be able to estimate the correlation from a scatterplot with a linear association. Likewise, if we are building a module on two sample independent t-tests, our learning goals might be 1) to determine if our two samples are independent, 2) set up the appropriate null and alternative hypotheses, 3) calculate the appropriate test statistics, 4) find the applicable p-value, 5) draw the correct inference.
+
+### Introduction/Motivation
+
+Each SCORE Network module is focused around a sports content specific question or problem. The introduction should start with this problem and the rest of the module should be focused on the methodology used to inform the answer to this problem. For a published module, we expect that the module will have a video introduction to get students engaged. However, modules do not need to have a recorded video as part of the submission process and SCORE Network personnel will work with authors to develop videos for accepted modules.
+
+The rest of the introduction should discuss material that is helpful for students to understand the question of interest. In particular, this set of introductory material should cover relevant rules, terms or other information that are specific to the sport of interest. Thus, a module on comparing times in the various legs of a triathlon should cover what those three legs are and the order in which they occur. Similarly, a module on rates of stealing bases in baseball should cover the basic rules of baseball and why stealing a base can be advantageous.
+
+### Data and Data Glossary
+
+The data that is used as part of a SCORE Network modules needs to be publicly available and shareable. As part of the submission process, authors will be asked to verify that it is lawful and appropriate for the SCORE Network to share the data that accompanies the modules. We ask that the data be in a suitable format for disseminating across a variety of software platforms, for example, *.csv or* .json format. In addition, the data need to be appropriate for answering the sports content question of interest. A data glossary should be created for each data set associated with the module. Each glossary should contain a list of variables/features and a short description of that variable.
+
+### Methods
+
+The methods section of the module is a short description of the approach and/or methods that would be taken and the steps to go through that methodology.
+
+### Activities/Exercises
+
+This portion of the module should contain activities for students to engage with the data and the relevant question. As suggested by the [GAISE Report](https://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf){target="_blank"}, statistics and data science courses should involve active learning. Thus, we expect that SCORE Network modules will involve students doing exercises and activities that will facilitate their learning as part of a module. The length and amount of exercises will vary based upon the content and learning goals for the modules but each module will have exercises.
+
+### Conclusions/Wrap-up
+
+Modules should be introduced and motivated by a sports specific question of interest. To that end, students should see the relevance of the module’s statistical or data science methods to that question. Thus, we expect that at the end of each module there will be some wrap-up that actively has students summarize what they have learned and how the methods in the modules made that possible. An optional wrap-up video might be included as part of a module when possible.
+
+## Module Submission
+
+Here, we provide information on each of the steps that you will take between the initial submission of a module proposal through to its publication on the network.
+
+Prior to the submission of a module proposal, please review the modules already published on the network, accessible via www.scorenetwork.org, to determine if your proposed module provides material not already covered by network modules (or provides a new and interesting angle for approaching material for which modules already exist).
+
+**(OPTIONAL)** Do you have an idea for a SCORE module but need assistance in formally creating it or want initial feedback / guidance before submitting a module draft? You can submit a module idea proposal to this form. In this form, you will select the first option under “\[w\]hat type of submission would you like to make?” You will provide a description of your module idea (limit 1500 characters). Optionally, you can upload a zipped folder containing any files you have already created that are relevant for your module, e.g., dataset and handouts. After submitting the module idea form, a SCORE network editor will contact you via the email address you provide to let you know if your proposal is appropriate and assign you a SCORE Coach to convert your idea into a fully functioning module. Your Coach will follow the SCORE guidelines described here.
+
+Once you are ready to submit a draft of your module, either independently or with the guidance of an assigned Coach, you will then submit your module for review using this form. This is the same form as linked to above, but you will select either the second or third option under “\[w\]hat type of submission would you like to make?” You will provide the following information and materials in your submission:
+
+-   Contact information for the corresponding author.
+-   A title and an author list (with affiliations)
+-   A list of learning objectives.
+-   Zipped folder containing all of the relevant module files (see below for details).
+-   OPTIONAL: A link to your module video on YouTube (see instructions for processing a video on YouTube here). Videos are NOT required at this stage.
+-   High-level description of the sports question your module is covering.
+-   Reference / source of the data used in your module. Also: please ensure that you have permission to post the data that you are providing in a public forum!
+-   Description of the statistics / data science topic covered in your module, with relevant prerequisite info.
+
+### Contents of the Zipped Folder
+
+The zipped folder for your module submission needs to contain the following files:
+
+**Module files** should be in one or more of the following formats:
+
+-   A single R Markdown or Quarto file\
+-   A single Jupyter notebook\
+-   A Word document\
+-   A file created using the ISLE editor (see [https://github.com/isle-project/isle-editor](https://github.com/isle-project/isle-editor){target="_blank"})
+
+(Please contact the associate editor if you wish to provide your draft in a format not listed above.)
+
+**Dataset(s)**\
+When possible, data should be provided in comma-separated value (csv) format or another commonly used data structured format. Contact a SCORE Network Editor (scoreeditors\@gmail.com) with questions about file formats. Please remove all uninformative data columns (e.g., those that contain sequential IDs, or character strings that are not categories, etc.) prior to submission. For ISLE modules, file sizes should not exceed 10 MB, with a maximum of 20,000 rows and no more than 50 variables. Otherwise, the file size limit for datasets is 100 MB. If your example dataset is too large, consider sub-sampling rows or only keeping the minimal number of necessary columns containing statistical information relevant for your submission.
+
+**Data glossary(s)**\
+For each dataset, a csv file containing a row for each column in the dataset, with two columns describing those variables:
+
+-   **Variable**: the column name in the dataset\
+-   **Description**: A description of this variable, including units when possible
+
+**README text file**\
+Text file named `README.txt` explaining what the different files are inside your zipped folder submission.
+
+### Required Module Sections
+
+All module files should include the following sections:
+
+-   **Learning Goals**: A list of the learning outcomes for those that complete the module.
+-   **Introduction**: Motivates the problem to be solved and provides high-level context on how it is to be solved (e.g., can we predict whether a batted ball is going to be a home run based on launch angle and launch speed using a classification tree model?). The accompanying introductory video would also be part of this section.
+-   **Data**: Section in which data are provided and described.
+-   **Methods / Instructional Content**: Section(s) that provides background material on the methods or main instructional content of the module (e.g., a high-level description of what a classification tree is and how it is learned).
+-   **Exercises/Activities**: Section that provides exercises that students are to complete; if an exercise involves data analysis, that analysis is to be done using the provided dataset.\
+    *Note: Exercises could be incorporated throughout the module rather than in a separate section.*
+-   **Wrap-Up/Conclusions**: A conclusion (perhaps with an accompanying video) that summarizes the information that students are to take away when completing the module.
+
+Variations on this structure (for instance, additional sections above and beyond those listed above) are allowed if the Editor or Associate Editor deems them appropriate.
+
+You can view published modules on the SCORE Network website: here.
+
+## Review Process
+
+Upon submission, a SCORE Editor will perform an initial inspection of your submission to determine if it is appropriate to be assigned an Associate Editor (AE) for review. A module will not be sent for review if the Editor determines that the module is not a unique submission. The Editor may also determine that the module is incomplete but would be appropriate to pair with a SCORE Coach (see Step 2) to then eventually lead to a new submission. If your submission is sent for review, the AE will then distribute your submission to anonymous reviewers of the following types:
+
+-   **Pedagogical reviewer**
+    -   Pedagogical review rubric.
+-   **Multimedia/Video Partner (MVP) Sports Industry reviewer**
+    -   MVP review rubric.
+-   **(OPTIONAL) Student reviewers**:
+    -   Student review rubric.
+
+After compiling feedback from the reviewers in a timely manner, the AE will then make one of the recommendations to the Editor:
+
+-   Accept your module draft as is.\
+-   Accept your draft given minor revisions.\
+-   Require major revisions of the module before resubmission.
+    -   This may also include the suggestion of a SCORE Coach to aid in the revision process if the module does not have a Coach assigned to it already. If applicable, the Coach may also receive suggestions.
+
+All reviews will be made available to you. Note that a review cycle can comprise multiple separate submissions.
+
+### Final Steps and Publication
+
+When your module draft is accepted, the Editor, Associate Editor or a Module Coach will work with you to:
+
+-   Convert your module to ISLE format (if necessary); and\
+-   Create an introductory (and possibly a concluding) video.
+
+The network will not release the finalized module until you explicitly agree upon its appearance.
+
+Modules will be published on the condition of the transfer of copyright (to the extent possible) to the SCORE Network. Modules may not be published elsewhere without the express written consent of the SCORE Network.
+
+The SCORE Network will create and provide a Digital Object Identifier (DOI) number that you can use to reference your published module.
