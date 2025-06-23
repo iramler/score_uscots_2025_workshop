@@ -31,9 +31,12 @@ No strong sports knowledge required...but an interest in using real data in the 
 
 - A **laptop with internet access**
 - Familiarity with **R and Quarto** is helpful, but not required
+- Familiarity with GitHub is helpful, but not required.
 - Optionally, bring your own sports dataset or teaching materials
 
-## Additional Resources
+## Additional  Resources
+
+### SCORE Related
 
 - SCORE Network website: [scorenetwork.org](https://scorenetwork.org){target="_blank"}  
   + For general information about the project (and links to all materials).
@@ -41,6 +44,15 @@ No strong sports knowledge required...but an interest in using real data in the 
   + Lots of example datasets that can be used to start the process of building a module.
 - GitHub module repo: [SCORE Module Repository](https://modules.scorenetwork.org/){target="_blank"}
   + The [preprint servers](https://modules.scorenetwork.org/preprints.html){target="_blank"} also have a lot of additional modules to peruse.
+
+### GitHub Related
+
+- Beginner: Use [GitHub Desktop](https://github.com/apps/desktop){target="_blank"} to access repository materials on your computer.
+  + 
+- Advanced: Learn How to _Integrate Git and GitHub into your daily work with R and R Markdown_ via [https://happygitwithr.com/](https://happygitwithr.com/){target="_blank"}
+
+
+
 
 
 ## Example Module Ideas & Datasets

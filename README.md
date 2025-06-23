@@ -36,9 +36,12 @@ in the classroom is mandatory!
 
 - A **laptop with internet access**
 - Familiarity with **R and Quarto** is helpful, but not required
+- Familiarity with GitHub is helpful, but not required.
 - Optionally, bring your own sports dataset or teaching materials
 
 ## Additional Resources
+
+### SCORE Related
 
 - SCORE Network website:
   <a href="https://scorenetwork.org" target="_blank">scorenetwork.org</a>
@@ -54,6 +57,16 @@ in the classroom is mandatory!
   - The <a href="https://modules.scorenetwork.org/preprints.html"
     target="_blank">preprint servers</a> also have a lot of additional
     modules to peruse.
+
+### GitHub Related
+
+- Beginner: Use
+  <a href="https://github.com/apps/desktop" target="_blank">GitHub
+  Desktop</a> to access repository materials on your computer.
+  - 
+- Advanced: Learn How to *Integrate Git and GitHub into your daily work
+  with R and R Markdown* via <a href="https://happygitwithr.com/"
+  target="_blank">https://happygitwithr.com/</a>
 
 ## Example Module Ideas & Datasets
 
