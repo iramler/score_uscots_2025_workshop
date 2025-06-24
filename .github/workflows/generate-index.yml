@@ -1,4 +1,4 @@
-name: Generate index.html for GitHub Pages
+name: Generate index.html from HTML title tags
 
 on:
   push:
@@ -11,23 +11,46 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Generate index.html
         run: |
           mkdir -p docs
-          echo '<!DOCTYPE html><html><head><title>Index</title></head><body><h1>Available Pages</h1><ul>' > docs/index.html
+          echo '<!DOCTYPE html>' > docs/index.html
+          echo '<html lang="en"><head>' >> docs/index.html
+          echo '<meta charset="UTF-8">' >> docs/index.html
+          echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">' >> docs/index.html
+          echo '<title>SCORE Materials</title>' >> docs/index.html
+          echo '<style>' >> docs/index.html
+          echo '  body { font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 1em; background-color: #f9f9f9; }' >> docs/index.html
+          echo '  h1 { color: #333; }' >> docs/index.html
+          echo '  ul { list-style-type: none; padding-left: 0; }' >> docs/index.html
+          echo '  li { margin: 0.5em 0; }' >> docs/index.html
+          echo '  a { text-decoration: none; color: #2a5db0; font-weight: bold; }' >> docs/index.html
+          echo '  a:hover { text-decoration: underline; }' >> docs/index.html
+          echo '  .timestamp { margin-top: 2em; font-size: 0.9em; color: gray; }' >> docs/index.html
+          echo '</style></head><body>' >> docs/index.html
+          echo '<h1>SCORE Materials</h1>' >> docs/index.html
+          echo '<ul>' >> docs/index.html
+
           for file in docs/*.html; do
             name=$(basename "$file")
-            if [ "$name" != "index.html" ]; then
-              echo "<li><a href=\"$name\">$name</a></li>" >> docs/index.html
-            fi
+            [ "$name" = "index.html" ] && continue
+            # Extract <title> contents (fallback to filename if not found)
+            title=$(grep -i -m 1 '<title>' "$file" | sed -E 's:.*<title>(.*)</title>.*:\1:' || echo "$name")
+            [ -z "$title" ] && title="$name"
+            echo "<li><a href=\"$name\">$title</a></li>" >> docs/index.html
           done
-          echo '</ul></body></html>' >> docs/index.html
+
+          echo '</ul>' >> docs/index.html
+          echo "<div class=\"timestamp\">Last updated: $(date -u)</div>" >> docs/index.html
+          echo '</body></html>' >> docs/index.html
 
       - name: Commit and push index.html
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/index.html
-          git commit -m "Auto-update index.html [skip ci]" || echo "No changes"
+          git commit -m "Auto-update index.html with titles [skip ci]" || echo "No changes"
           git push
