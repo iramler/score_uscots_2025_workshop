@@ -15,6 +15,9 @@ Powerlifting is a strength sport where participants compete to lift the heaviest
 
 A sample of competitive Powerlifting data is available on the SCORE Data Repository at [https://data.scorenetwork.org/powerlifting/openpowerlifting.html](https://data.scorenetwork.org/powerlifting/openpowerlifting.html){target="_blank"}
 
+
+::: {.callout-note collapse="true" title="Module Ideas" appearance="minimal"}
+
 There are several modules in development based on this data (using polynomial regression and non-linear least squares to explore the relationship between lifting weight and age). However, there are also several other modules that could be created with these data. 
 
 Here is a quick list of other potential modules.
@@ -28,5 +31,24 @@ Here is a quick list of other potential modules.
 - Multicolinearity: VIFs for predicting Squat using Deadlift and Bench (and other stuff as needed)
 
 - SLR: Relationship between body weight and lift amount
+
+:::
+
+## Baseball Data
+
+Several Good Sources available on the Data Repository
+
+- Baseball Savant (subset)
+
+::: {.callout-note collapse="true" title="Module Ideas" appearance="minimal"}
+:::
+
+
+
+## Another One!
+
+::: {.callout-note collapse="true" title="Module Ideas" appearance="minimal"}
+:::
+
 
 
