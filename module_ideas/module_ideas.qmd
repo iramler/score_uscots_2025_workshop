@@ -1,0 +1,26 @@
+---
+title: "Ideas for Modules"
+format: 
+  html:
+    toc: true
+    toc-depth: 3            
+    toc-location: left      
+    embed-resources: true   
+    theme: cosmo
+---
+
+## Powerlifting Data
+
+Link to data set on Data Repo
+
+- One-Way ANOVA: Comparing weight lifted across Age-classes 
+
+- Matched pairs CI: Squat vs Deadlift
+
+- Correlations: Exploring correlations between the three lifts
+
+- Multicolinearity: VIFs for predicting Squat using Deadlift and Bench (and other stuff as needed)
+
+- SLR: Relationship between body weight and lift amount
+
+
