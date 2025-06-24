@@ -11,7 +11,13 @@ format:
 
 ## Powerlifting Data
 
-Link to data set on Data Repo
+Powerlifting is a strength sport where participants compete to lift the heaviest weight. Competitors compete within weight classes, so their opponents are around the same weight as them. The sport consists of three different lifts: Squat, Bench, and Deadlift.
+
+A sample of competitive Powerlifting data is available on the SCORE Data Repository at [https://data.scorenetwork.org/powerlifting/openpowerlifting.html](https://data.scorenetwork.org/powerlifting/openpowerlifting.html){target="_blank"}
+
+There are several modules in development based on this data (using polynomial regression and non-linear least squares to explore the relationship between lifting weight and age). However, there are also several other modules that could be created with these data. 
+
+Here is a quick list of other potential modules.
 
 - One-Way ANOVA: Comparing weight lifted across Age-classes 
 
