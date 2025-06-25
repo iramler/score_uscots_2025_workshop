@@ -1,0 +1,248 @@
+---
+title: Are Records Random?
+author: Nicholas Clark, Rodney Sturdivant, Kate Sanborn
+description: ISLE Module that teaches Students how to use Poisson Process to test for randomness
+keywords:
+require:
+    marathon: "https://isle.stat.cmu.edu/SCORE_Marathon.json"
+    marathondays: "https://isle.stat.cmu.edu/SCORE_marathondays.json"
+language: en-US
+state:
+license: CC BY 4.0 [https://creativecommons.org/licenses/by/4.0]
+style: |
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif !important;
+        color: #0055a2 !important;    
+    }
+    
+    .top-navbar {
+        background: linear-gradient(to right, #6EBFEC, #388FDA);
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .banner-container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+    .banner-heading {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, -30%);
+    }
+---
+
+<div className="banner-container center" >
+    <img className="banner-img" width="100%" height="auto" src="https://isle.stat.cmu.edu/SCORE_score_banner_unsplash.jpg" alt="SCORE Banner" />
+    <div className="banner-heading">
+        <h1>Are We Living in An Age of Running Records?</h1>
+    </div>
+</div>
+
+<Tabs 
+    id="navbar"  
+    className="justify-content-center"  
+    variant="pills" 
+    className="top-navbar"
+>
+  <Tab eventKey={1} title="Intro">
+  
+    <Panel header="Welcome" >
+        <VideoPlayer url="https://www.youtube.com/watch?v=FJWtnFqIxtY"/>
+    </Panel>
+  
+  </Tab>
+  <Tab eventKey={2} title="Data" >
+ 
+    <Panel header="Data" > 
+Below we can see the list of Men's Marathon World Records from Wikipedia.
+
+<DataTable
+    data={marathon}
+/>
+
+
+<FreeTextQuestion id="q1" question="What Data can be used to help answer the question - Are World Records Random Events?" solution="The number of days between World Records" />
+    </Panel>
+ 
+So, we see that the data, maybe, doesn't directly answer our question. We could work with the data to get it into a better format. What do you think would be an appropriate step to take?
+
+<MultipleChoiceQuestion
+    solution={1}
+    answers={[
+        {content:"Compute the amount of time each record decreased by"},
+        {content:"Compute the number of days between record"},
+        {content:"Find the number of times each individual set a World Record"}
+    ]}
+    question="Which of the following methods are used for clustering?"
+    provideFeedback="full"
+/>
+
+<DataExplorer
+    data={marathondays}
+    quantitative={['Days_Between_Record']}
+    statistics={["Mean", "Median", "Variance", "Standard Deviation"]}
+    plots={["Histogram",]}
+/>
+
+
+Using the ISLE toolkit, explore the data. 
+
+<FreeTextQuestion id="q2" question="Would it be appropriate to use a Normal Distribution to model this data?" solution="No, in the histogram the data appear to be highly skewed"/>
+
+  </Tab>
+
+    
+  <Tab eventKey={3} title="Exponential Distribution"  >
+
+    <Panel header="Exponential Distribution" >
+       
+One way to determine if World Records appear randomly is through determining if the time between World Records follows the Exponential Distribution.
+
+The Exponential Distribution states that the $P(T \leq t)= 1 - e^{-\lambda t}$, where $\lambda$ is a parameter often referred to as the rate parameter. 
+
+There are several steps one might use to determine if a model, such as exponential interarrivals, is appropriate.  The exponential distribution has certain attributes, for example, if we say that $T\sim Exp(\lambda)$:
+
+The expected value of $T$ is:
+
+$$E(T) = 1/\lambda$$
+
+
+And the Standard Deviation of $T$ is:
+$$SD(T) = 1/\lambda$$
+
+In other words, the mean of the distibution is the same as its standard deviation and both are equal to the one over the rate parameter, $\lambda$
+
+
+    </Panel>
+
+    <Panel header="Testing Assumptions" >
+
+
+In the R package "MASS" is a function "fitdistr" which we can use to determine the "best" exponential distribution for a given set of data.  The command is below and the estimate of the rate $\lambda$ extracted.  
+
+
+
+
+<RShell id="R1" libraries={['MASS']} code={`days_between_df <- read.csv(file="https://raw.githubusercontent.com/nick3703/ISLEModule/main/marathon.csv");
+expfit=fitdistr(days_between_df$Days_Between_Record,"exponential");
+exprate<-expfit$estimate;
+exprate;
+`} resettable 
+/>
+
+Alternatively, we could calculate the sample mean and estimate $\lambda$ from this value. Or you could estimate the sample Standard deviation:
+
+<RShell id="R2" libraries={['MASS']} code={`days_between_df <- read.csv(file="https://raw.githubusercontent.com/nick3703/ISLEModule/main/marathon.csv");
+c(mean(days_between_df$Days_Between_Record),sd(days_between_df$Days_Between_Record))
+`} resettable 
+/>
+
+
+<FreeTextQuestion id="q5" question="Use these statistics to estimate Lambda. How does it compare to the fitdistr method?" solution=""/>
+    </Panel>
+
+  </Tab>
+
+  
+  <Tab eventKey={4} title="Evaluating the Fit"  >
+
+    <Panel header="Model Evaluation" >
+Once we have an estimate of the rate parameter, we can examine the exponential model and see how well it fits (matches) our observed data.  One way to do this is graphically.  Below we show the histogram of the data we examined earlier.  The red dashed line is the "density" curve of the data - sort of a smoothed or continuous curve instead of the binned histogram based on the data.  Finally, the green dashed line is the plot of the exponential model.  
+    </Panel>
+
+  <RShell code={`days_between_df <- read.csv(file="https://raw.githubusercontent.com/nick3703/ISLEModule/main/marathon.csv");
+days_between <- days_between_df$Days_Between_Record;
+x <- density(days_between)
+hist(days_between,main="Histogram, density curve and exponential model",xlab="Interarrival Time",freq=FALSE,ylim=c(0,0.001));
+lines(x,col="red",lty =2, lwd =2);
+curve(dexp(x, rate=0.001218),col=3, lty=3, lwd=2,add=T);
+`} resettable />
+
+<FreeTextQuestion id="q5" question="Does the exponential model seem reasonable?" solution="a"/>
+<Panel Header="ECDF" >
+
+The histogram/density are not always the best for assessing model fit.  Another common approach is to consider the cumulative distribution function (CDF).  This function gives the $P(T\lt t)$ for all values of $t$. There is an empirical version of this that is based solely on the actual data known as the ECDF or the empirical CDF.
+
+As an example for reading this plot, when x = 1000 that is 1000 days between world records we see (reading the y value) that around 70 percent of the times between records were less than this value.
+
+<RShell code={`days_between_df<-read.csv("https://raw.githubusercontent.com/nick3703/ISLEModule/main/marathon.csv");
+days_between <- days_between_df$Days_Between_Record;
+plot(ecdf(days_between),main="Empirical distributin function");
+`} resettable />
+
+The ECDF provides, in essence, the same information as the CDF but for the data.  To see if our model fits well, we can compare the exponential CDF to the ECDF as in the graph below.
+<RShell code={`days_between_df <- read.csv(file="https://raw.githubusercontent.com/nick3703/ISLEModule/main/marathon.csv");
+days_between <- days_between_df$Days_Between_Record;
+x=seq(0,max(days_between),0.1);
+plot(x,pexp(x,rate=0.001218));
+plot(ecdf(days_between),xlab='Interarrival Times',col.hor = "red",col.vert="blue",lwd=6,cex=2,add=T)`} lines={5} />
+
+<FreeTextQuestion id="q10" question="Does the Exponential model seem reasonable?" solution="b"/>
+
+</Panel>
+
+    </Tab>
+
+  <Tab eventKey={5} title="Outro"  >
+
+
+<FreeTextQuestion
+  question="Based on the modeling effort, how do you respond to the original question: have there been ''times of records'' or are these times still random?"
+  solution="As the exponential distribution seems to fit the data fairly well, it would seem that the records are appearing randomly and we're not living in a time of records..."
+/>
+  </Tab>
+  <Tab eventKey={6} title ="Advanced Topic: Memoryless">
+  <Panel header="Proving Memoryless Property of Exponential">
+  
+One interesting property of the exponential distribution is that it is memoryless. What this means is that 
+
+$$P(X > x+t |X>t)=P(X>x)$$
+<FreeTextQuestion
+  question="If X represents the time until the next world record, what does this mean in context of the marathon problem"
+  solution="The probability that a new record occurs in x days is independent of the fact that we haven't seen a record occur over the last t days"
+/>
+
+Let's prove this property of the exponential. Start by writing out the conditional probability. Recall that the definition of conditional probability is:
+$$P(A|B) = \frac{P(A\cap B)}{P(B)}$$
+
+Use this to express $P(X>x+t|X>t)$ as a fraction
+$$P(X>x+t|X>t)=\frac{P(X>x+t\cap X>t)}{P(X>t)}$$
+<FreeTextQuestion
+  question="Why can we simplify the numerator to P(X>x+t)?"
+  solution="The event P(X>t) is a subset of the event P(X>x+t), so the intersection is P(X>x+t). In other words, if X is greater than x+t is MUST be that X>t"
+/>
+
+Recall that the CDF of a distribution is 
+$$F(a)=P(X \lt a)$$ 
+
+<FreeTextQuestion
+  question="Using this, can we write our numerator and denominator as functions of the CDF?"
+  solution="The numerator is 1-F(x+t) and the denominator is 1-F(t)"
+/>
+Finally, use the fact that the CDF of the exponential is $$F(t)=1-e^{-\lambda t}$$ 
+to prove that the numerator and the denominator are equal to 
+$$e^{-\lambda x}$$
+
+<FreeTextQuestion
+  question="Why does this prove the memoryless property?"
+  solution="We needed to show that P(X>x) = P(X>x+t|X>t), we started with the right hand side and the expression we got above is 1-F(x) which, by definition of the CDF is P(X>x)"
+/>
+
+
+</Panel>
+  </Tab>
+</Tabs>
+
+<Panel header="About SCORE" defaultMinimized minimizable >
+
+</Panel>
+
+<h4>Powered by <a href="http://stat.cmu.edu/isle"><img id="isle"src="https://isle.stat.cmu.edu/SCORE_isle_med.jpg" width={"3%"}></img></a>
+</h4> 
