@@ -70,12 +70,14 @@ in the classroom is mandatory!
 
 ## Example Module Ideas & Datasets
 
-To help you get started, here are a few examples of module ideas (and
-related datasets). That you can use to start building your own
-module(s).
+To help you get started, here are a few <a
+href="https://github.com/iramler/score_uscots_2025_workshop/tree/main/module_examples"
+target="_blank">examples modules</a> as well as some <a
+href="https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html"
+target="_blank">ideas to help you start brainstorming your own</a>.
 
 ------------------------------------------------------------------------
 
 *Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark
-(St. Thomas University), Michael Schuckers (University of North
-Carolina - Charlotte), Robin Lock (St. Lawrence University)*
+(St. Thomas University), Robin Lock (St. Lawrence University), Michael
+Schuckers (University of North Carolina - Charlotte)*

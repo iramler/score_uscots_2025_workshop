@@ -36,18 +36,22 @@ Here is a quick list of other potential modules.
 
 ## Baseball Data
 
-Several Good Sources available on the Data Repository
+Several Good Sources available on the [Data Repository](https://data.scorenetwork.org/){target="_blank"}.
 
-- Baseball Savant (subset)
+- Baseball Savant Subsets
 
-::: {.callout-note collapse="true" title="Module Ideas" appearance="minimal"}
-:::
+Baseball Savant has a huge amount of data available. The following two links contain subsets of these data to be more easily used in a classroom setting.
 
-
-
-## Another One!
+  + [Star Pitchers](https://data.scorenetwork.org/baseball/mlb_ten_pitchers_statcast.html){target="_blank"}
+  + [Star Hitters](https://data.scorenetwork.org/baseball/mlb_superstar_hitters_2024.html){target="_blank"}
 
 ::: {.callout-note collapse="true" title="Module Ideas" appearance="minimal"}
+Modules could probably be built around the following statistical topics.
+
++ Frequency tables, bar charts, proportions, conditional distributions
++ Mean, median, standard deviation, histograms, boxplots, shape of distribution
++ Side-by-side visualizations, comparing means/proportions, two-group comparisons
++ Longitudinal comparisons, trend detection, consistency metrics
 :::
 
 

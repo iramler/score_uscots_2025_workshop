@@ -57,10 +57,10 @@ No strong sports knowledge required...but an interest in using real data in the 
 
 ## Example Module Ideas & Datasets
 
-To help you get started, here are a few examples of module ideas (and related datasets). That you can use to start building your own module(s).
+To help you get started, here are a few [examples modules](https://github.com/iramler/score_uscots_2025_workshop/tree/main/module_examples){target="_blank"} as well as some [ideas to help you start brainstorming your own](https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html){target="_blank"}.
 
 
 
 
 ---
-*Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark (St. Thomas University), Michael Schuckers (University of North Carolina - Charlotte), Robin Lock (St. Lawrence University)*
+*Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark (St. Thomas University), Robin Lock (St. Lawrence University), Michael Schuckers (University of North Carolina - Charlotte)*
