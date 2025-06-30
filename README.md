@@ -76,6 +76,20 @@ target="_blank">examples modules</a> as well as some <a
 href="https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html"
 target="_blank">ideas to help you start brainstorming your own</a>.
 
+## Surveys
+
+Pre-workshop: Please fill out this survey before the workshop so we have
+a sense as to what people are interested in!
+
+- <a href="https://forms.gle/u7Dio3YtDDDNjkV9A"
+  target="_blank">https://forms.gle/u7Dio3YtDDDNjkV9A</a>
+
+Post-workshop: Please fill out this survey after the workshop so we can
+better understand what when well and what didn’t!
+
+- <a href="https://forms.gle/LaYDFDRbE1eEvW2X7"
+  target="_blank">https://forms.gle/LaYDFDRbE1eEvW2X7</a>
+
 ------------------------------------------------------------------------
 
 *Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark

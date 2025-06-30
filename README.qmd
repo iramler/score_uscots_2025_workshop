@@ -60,7 +60,15 @@ No strong sports knowledge required...but an interest in using real data in the 
 To help you get started, here are a few [examples modules](https://github.com/iramler/score_uscots_2025_workshop/tree/main/module_examples){target="_blank"} as well as some [ideas to help you start brainstorming your own](https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html){target="_blank"}.
 
 
+## Surveys
 
+Pre-workshop: Please fill out this survey before the workshop so we have a sense as to what people are interested in!
+
+- [https://forms.gle/u7Dio3YtDDDNjkV9A](https://forms.gle/u7Dio3YtDDDNjkV9A){target="_blank"}
+
+Post-workshop: Please fill out this survey after the workshop so we can better understand what when well and what didn't!
+
+- [https://forms.gle/LaYDFDRbE1eEvW2X7](https://forms.gle/LaYDFDRbE1eEvW2X7){target="_blank"}
 
 ---
 *Workshop leads: Ivan Ramler (St. Lawrence University), Nick Clark (St. Thomas University), Robin Lock (St. Lawrence University), Michael Schuckers (University of North Carolina - Charlotte)*
