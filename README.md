@@ -70,11 +70,16 @@ in the classroom is mandatory!
 
 ## Example Module Ideas & Datasets
 
-To help you get started, here are a few <a
-href="https://github.com/iramler/score_uscots_2025_workshop/tree/main/module_examples"
-target="_blank">examples modules</a> as well as some <a
-href="https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html"
-target="_blank">ideas to help you start brainstorming your own</a>.
+To help you get started, here are a few examples and templates.
+
+- <a
+  href="https://github.com/iramler/score_uscots_2025_workshop/tree/main/module_examples"
+  target="_blank">Example Modules</a>
+- [Module Templates](module_templates/)
+- [Data Repository Template](module_templates/_dataset-template.qmd)
+- <a
+  href="https://iramler.github.io/score_uscots_2025_workshop/module_ideas.html"
+  target="_blank">Ideas to help you start brainstorming your own</a>.
 
 ## Surveys
 

@@ -1,0 +1,99 @@
+---
+title: "MODULE TITLE HERE"
+author:
+  - name: First Author
+    affiliation:
+      - id: your_institution
+        name: Your Institution Name
+    email: optional_email@example.com
+  - name: Additional Author (optional)
+    affiliation:
+      - ref: your_institution
+    email: optional_email@example.com
+
+date: "YYYY-MM-DD"
+description: "Brief summary of the module’s purpose and activity focus."
+
+format:
+  html:
+    embed-resources: true
+
+editor: 
+  canonical: true
+
+image: an_image_file_to_use_as_a_thumbnail.png
+
+categories:
+  - TAG 1
+  - TAG 2
+  - TAG 3 (optional)
+---
+
+## Module Overview
+
+::: {.callout-note collapse="true" title="Note on Module Status" appearance="minimal"}
+This module has not yet completed the formal pedagogical and industry peer-review process for publication on the SCORE Network. Instructors are welcome to use or adapt it.
+:::
+
+### Introduction
+
+Briefly introduce the module topic, context, and core questions. Include sport or dataset context as needed.
+
+::: {.callout-note collapse="true" title="Activity Length" appearance="minimal"}
+Approximate expected duration for students to complete the module.
+:::
+
+::: {.callout-note collapse="true" title="Learning Objectives" appearance="minimal"}
+By the end of this activity, students will:
+1. Objective 1  
+2. Objective 2  
+3. ...and so forth  
+:::
+
+::: {.callout-note collapse="true" title="Methods & Prerequisites" appearance="minimal"}
+Briefly state expected prior knowledge or technical skills students need to engage with the module.
+:::
+
+::: {.callout-note collapse="true" title="Technology Requirements" appearance="minimal"}
+List required technology (e.g., R, Python, StatKey, etc.).
+:::
+
+---
+
+### Data
+
+Brief description of the dataset(s) used in the module.
+
+<details>
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable Name | Description |
+|---------------|-------------|
+| Variable 1    | Description |
+| Variable 2    | Description |
+| Variable 3    | Description |
+
+</details>
+
+Download data: [your_data.csv](your_data.csv)
+
+#### Data Source
+Provide links or citations for datasets if applicable.
+
+---
+
+### Materials
+
+- [Student Worksheet (R Version)](your_file.qmd)
+- [Student Worksheet (Other Version)](your_file.docx)
+- [Solutions (R Version)](your_solution_file.qmd)
+- [Solutions (PDF Version)](your_solution_file.pdf)
+
+---
+
+### Conclusion
+
+Summarize the main learning takeaway. Optionally, include extensions or suggestions for deeper exploration.
+
+---
+

@@ -1,0 +1,76 @@
+---
+title: "MODULE TITLE HERE"
+author:
+  - name: First Author
+    affiliation:
+      - id: your_institution
+        name: Your Institution Name
+    email: optional_email@example.com
+  - name: Additional Author (optional)
+    affiliation:
+      - ref: your_institution
+    email: optional_email@example.com
+
+date: "YYYY-MM-DD"
+description: "Brief summary of the module’s purpose and activity focus."
+
+output:
+  html_document:
+    self_contained: false
+
+categories:
+  - TAG 1
+  - TAG 2
+  - TAG 3 (optional)
+---
+
+# Module Overview
+
+> **Note:** This module has not yet completed the formal pedagogical and industry peer-review process for publication on the SCORE Network. Instructors are welcome to use or adapt it.
+
+## Introduction
+
+Briefly introduce the module topic, context, and core questions. Include sport or dataset context as needed.
+
+## Activity Length
+
+- Approximate expected duration for students to complete the module.
+
+## Learning Objectives
+
+- Objective 1
+- Objective 2
+- ...and so forth
+
+## Methods & Prerequisites
+
+Briefly state expected prior knowledge or technical skills students need to engage with the module.
+
+## Technology Requirements
+
+List required technology (e.g., R, RStudio, tidyverse, ggplot2, etc.).
+
+# Data
+
+Brief description of the dataset(s) used in the module.
+
+| Variable Name | Description |
+|---------------|-------------|
+| Variable 1    | Description |
+| Variable 2    | Description |
+| Variable 3    | Description |
+
+**Download Data:** your_data.csv
+
+## Data Source
+
+Provide links or citations for datasets if applicable.
+
+# Materials
+
+- Student Worksheet (R Markdown Version): your_file.Rmd
+- Solutions (R Markdown Version): your_solution_file.Rmd
+
+# Conclusion
+
+Summarize the main learning takeaway. Optionally, include extensions or suggestions for deeper exploration.
