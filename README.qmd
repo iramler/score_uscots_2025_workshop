@@ -5,6 +5,10 @@ format: gfm
 
 > This page provides information and resources for the [USCOTS 2025 workshop](https://www.causeweb.org/cause/uscots/uscots25/program/workshops/w13){target="_blank"} on creating statistics and data science teaching modules with sports data, hosted by the [SCORE Network](https://scorenetwork.org){target="_blank"}.
 
+## Introduction to SCORE
+
+[![Video Title](https://img.youtube.com/vi/eBasNuOMTUs/0.jpg)](https://www.youtube.com/watch?v=eBasNuOMTUs&t=1s)
+
 ## About the Workshop
 
 This 3-hour workshop introduces participants to the SCORE Network—an NSF-funded initiative that supports sports-based statistics education. Participants will explore examples, brainstorm their own module ideas, and begin outlining a new module for submission. Modules submitted within four weeks of USCOTS will receive an **expedited peer review**.

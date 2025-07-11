@@ -7,6 +7,11 @@
 > data science teaching modules with sports data, hosted by the
 > <a href="https://scorenetwork.org" target="_blank">SCORE Network</a>.
 
+## Introduction to SCORE
+
+[![Video
+Title](https://img.youtube.com/vi/eBasNuOMTUs/0.jpg)](https://www.youtube.com/watch?v=eBasNuOMTUs&t=1s)
+
 ## About the Workshop
 
 This 3-hour workshop introduces participants to the SCORE Network—an
