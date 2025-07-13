@@ -27,7 +27,7 @@ in the classroom is mandatory!
 
 | Approximate Time | Activity |
 |----|----|
-| 1:00–1:10 | **Welcome + Overview of SCORE Network**<br>Brief intro to goals, module examples, and repository benefits |
+| 1:00–1:10 | **Welcome + Overview of SCORE Network**<br>Brief intro to goals, materials, and repository benefits |
 | 1:10–1:20 | **Module Showcase**<br>Facilitators present 2–3 example modules and highlight their structure |
 | 1:20–1:35 | **Brainstorming Sports Questions**<br>Think-pair-share: Generate ideas for classroom activities using sports data |
 | 1:35–2:00 | **Finding and Exploring Datasets**<br>Intro to [data.scorenetwork.org](https://data.scorenetwork.org) and other sources |
